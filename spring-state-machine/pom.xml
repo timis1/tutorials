@@ -29,7 +29,7 @@
             <version>${spring-test.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.jayway.awaitility</groupId>
+            <groupId>org.awaitility</groupId>
             <artifactId>awaitility</artifactId>
             <version>${jayway.awaitility.version}</version>
             <scope>test</scope>
@@ -37,10 +37,10 @@
     </dependencies>
 
     <properties>
-        <spring-statemachine-core.version>3.2.0</spring-statemachine-core.version>
-        <spring-context.version>5.3.19</spring-context.version>
-        <spring-test.version>5.3.19</spring-test.version>
-        <jayway.awaitility.version>1.7.0</jayway.awaitility.version>
+        <spring-statemachine-core.version>4.0.0</spring-statemachine-core.version>
+        <spring-context.version>6.1.11</spring-context.version>
+        <spring-test.version>6.1.11</spring-test.version>
+        <jayway.awaitility.version>4.2.2</jayway.awaitility.version>
     </properties>
 
 </project>
